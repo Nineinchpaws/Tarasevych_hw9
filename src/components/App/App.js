@@ -49,7 +49,7 @@ const Main = () => {
   return (
     <div>
       <h2>Main Page</h2>
-      <p>Are you over 18?</p>
+      <p>Are you 18+?</p>
       <button onClick={handleConfirmAge}>Yes</button>
       {isOver18 && <Outlet />}
     </div>

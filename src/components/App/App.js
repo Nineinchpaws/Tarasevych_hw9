@@ -114,9 +114,3 @@ function App() {
 }
 
 export default App;
-
-
-// Завдання 3
-// Створіть приватний Rout, в який можна буде зайти, якщо користувач натиснув на кнопку «Мені більш як 18 років»
-// style={({ isAdult })} =>
-// isAdult ? adultStyle : undefined
